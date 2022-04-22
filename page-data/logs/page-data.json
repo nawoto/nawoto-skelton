@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-logs-js",
     "path": "/logs/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"@nawoto"}},"allMarkdownRemark":{"nodes":[{"excerpt":"雑多な文章を書きたいなっと思ったので、放置していた自分のサイトをGatsbyで作り直してみた。\n以前に、Hugo を使ってみたけど、自分のスキルだと細かい部分まで手をいれられなかったで Gatsby…","fields":{"collection":"blog","slug":"/2022/04/01/hello-world/"},"frontmatter":{"date":"2022/04/01","title":"Hello World!!","description":null}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"@nawoto"}},"allMarkdownRemark":{"nodes":[{"excerpt":"娘の…","fields":{"collection":"blog","slug":"/2022/04/22/start-going-to-preschool/"},"frontmatter":{"date":"2022/04/22","title":"保育園に行きはじめた","description":null}},{"excerpt":"雑多な文章を書きたいなっと思ったので、放置していた自分のサイトをGatsbyで作り直してみた。\n以前に、Hugo を使ってみたけど、自分のスキルだと細かい部分まで手をいれられなかったで Gatsby…","fields":{"collection":"blog","slug":"/2022/04/01/hello-world/"},"frontmatter":{"date":"2022/04/01","title":"Hello World!!","description":null}}]}},"pageContext":{}},
     "staticQueryHashes": ["2841359383","3257411868"]}
