@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[#nawoto]]></title><description><![CDATA[NISHIMURA(@nawoto) write some texts about Software Development, Life and more]]></description><link>https://nawo.to</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Apr 2022 08:40:10 GMT</lastBuildDate><item><title><![CDATA[保育園に行きはじめた]]></title><description><![CDATA[娘の…]]></description><link>https://nawo.to/2022/04/22/start-going-to-preschool/</link><guid isPermaLink="false">https://nawo.to/2022/04/22/start-going-to-preschool/</guid><pubDate>Fri, 22 Apr 2022 00:42:18 GMT</pubDate><content:encoded>&lt;p&gt;娘の 2 週間のならし保育もなんとか済んで、今週から本格的に保育園に行きはじめた。&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[#nawoto]]></title><description><![CDATA[NISHIMURA(@nawoto) write some texts about Software Development, Life and more]]></description><link>https://nawo.to</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Apr 2022 05:58:26 GMT</lastBuildDate><item><title><![CDATA[🚧 サイトのお手入れ ⛏️]]></title><description><![CDATA[もう少し世の中によくあるサイトみたいにしようと nawo.to に少しづつ手を入れている。 ブログサイトとかに良くありそうなものだと、だいたいこんな感じだと思う。 シェアボタン いいねボタン コメント機能 Gatsbyだと plugin…]]></description><link>https://nawo.to/2022/04/27/modify-site/</link><guid isPermaLink="false">https://nawo.to/2022/04/27/modify-site/</guid><pubDate>Wed, 27 Apr 2022 08:46:09 GMT</pubDate><content:encoded>&lt;p&gt;もう少し世の中によくあるサイトみたいにしようと &lt;a href=&quot;http://nawo.to&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;nawo.to&lt;/a&gt; に少しづつ手を入れている。&lt;br&gt;
+ブログサイトとかに良くありそうなものだと、だいたいこんな感じだと思う。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;シェアボタン&lt;/li&gt;
+&lt;li&gt;いいねボタン&lt;/li&gt;
+&lt;li&gt;コメント機能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://gatsbyjs.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Gatsby&lt;/a&gt;だと plugin が豊富にあるので利用していく。
+あと、先人たちがだいたい何かしらやってくれているので、調べながら実装。&lt;/p&gt;
+&lt;h2&gt;シェアボタン&lt;/h2&gt;
+&lt;p&gt;最近はスマホでサイトを閲覧して、そのまま OS・ブラウザの機能でシェアすることが(自分には)ほとんどなので、シェアボタンの必要性があるかは少し悩んだ。
+けれど、書いた文章にシェアボタンとかがあるとなんとなくそれっぽいサイトに見えるよな〜という理由で設置してみた 😄&lt;br&gt;
+シェア先は、Twitter ぐらいしか見てないので Twitter と昔ながらのはてブぐらいがあれば十分な気がする。&lt;/p&gt;
+&lt;p&gt;設置は、シュっと &lt;code class=&quot;language-text&quot;&gt;react-share&lt;/code&gt; を使って実装できた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/nygardk/react-share&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/nygardk/react-share&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;いいねボタン&lt;/h2&gt;
+&lt;p&gt;Gatsby で作ったような静的サイトでも「いいねボタン」って設置できるのかな〜っと調べてみたら、いろいろあるみたい。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://likebtn.com/en/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;LIKEBTN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lyket.dev/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Lyket&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;どちらも一定数の PV までなら無料で使えるので、&lt;a href=&quot;https://lyket.dev/docs/react&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;React まわりのドキュメント&lt;/a&gt;が記載されてた Lyket を使ってみた。&lt;/p&gt;
+&lt;h2&gt;コメント機能&lt;/h2&gt;
+&lt;p&gt;静的サイトでもコメント機能をつけられた 🎉&lt;br&gt;
+&lt;a href=&quot;https://disqus.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Disqus&lt;/a&gt; が有名だけど、&lt;a href=&quot;https://utteranc.es/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;utterances&lt;/a&gt;が良さそう！
+コメントをどうやって保存するんだろうっと思ったら、&lt;a href=&quot;https://github.com/nawoto/nawo.to/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Github の Issue&lt;/a&gt; を使うのか。スゴイ 😲&lt;/p&gt;
+&lt;p&gt;React のコンポーネントもあったけど、数行程度のコード量なので自前で持つことにした。参考にしたのはここら辺。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.emgoto.com/gatsby-comments/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;How to add comments to your Gatsby blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://miyauchi.dev/ja/posts/comment-system/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;技術ブログのコメントシステムは utterances がいい感じ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/TomokiMiyauci/utterances-component&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;utterances-component&lt;/a&gt; ※使わなかったけど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;ボタンの配置とかとか&lt;/h2&gt;
+&lt;p&gt;↑ な感じでポチポチと必要な要素を配置しながら、いろんなサイトを参考にしてみた。
+最近だと、シェアとかいいね！とかは記事のタイトル部分に配置してたりするサイトが増えた気がする。(特に記事を投稿する系のサービス)
+たしかに、タイトルと概要だけ読んでシュっとボタンを押して拡散する方がサービスの観点では良さそうだけど、個人サイトなんで一応、文章を読んで「これは良さそう！！」と思って押してもらった方が嬉しいので、ひとまずページ下部にボタンやコメント類を配置するオールドスタイルな感じにしてみた 😄&lt;/p&gt;
+&lt;h2&gt;まだまだお手入れの道は続く&lt;/h2&gt;
+&lt;p&gt;ひとまず、ふつうのサイトっぽい機能は実装できたけど、まだまだ手を入れたいところは次々と出てくる。
+ひとまず忘れないようにメモして、あとでちまちまやっていこう。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OGP 画像つけたい。Twitter にシェアするときに残念な気持ちになる&lt;/li&gt;
+&lt;li&gt;IndieWeb 化したい。&lt;a href=&quot;https://indiewebify.me/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;IndieWebfy.Me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Font Awesome&lt;/a&gt; でアイコンをつけたい&lt;/li&gt;
+&lt;li&gt;🍔 ハンバーガーメニューつけたい。大したメニューのコンテンツないけどなんとなく&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[保育園に行きはじめた]]></title><description><![CDATA[娘の…]]></description><link>https://nawo.to/2022/04/22/start-going-to-preschool/</link><guid isPermaLink="false">https://nawo.to/2022/04/22/start-going-to-preschool/</guid><pubDate>Fri, 22 Apr 2022 00:42:18 GMT</pubDate><content:encoded>&lt;p&gt;娘の 2 週間のならし保育もなんとか済んで、今週から本格的に保育園に行きはじめた。&lt;br&gt;
 人見知りも全くない様子で、いつもスンとした表情で泣くこともなく預けることができるので大変助かる 😊
 ならし保育中は掴まり立ちなどは披露してなかったらしく、今週になって保育士さんに「はじめて掴まり立ちしました！！」と言われたけど、「あ、家ではモゴモゴ(あ、するのは知ってましたよ)」と歯切れの悪い返事をしてしまった。娘も緊張してたのかね。&lt;/p&gt;
 &lt;p&gt;一方で親の方は、子供がならし保育中にもらってきた風邪をもらったり、生活リズムが朝早くにシフトしたりで自分の身体の方がまだ全然適応できていない感じ 😅&lt;br&gt;
