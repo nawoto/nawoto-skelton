@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-about-tsx",
     "path": "/about/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"@nawoto"}}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"#nawoto"}}},"pageContext":{}},
     "staticQueryHashes": ["1324386404","3257411868"]}
