@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[#nawoto]]></title><description><![CDATA[@nawoto write some texts about Software Development, Life and more]]></description><link>https://nawo.to</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 20 May 2022 05:58:59 GMT</lastBuildDate><item><title><![CDATA[Font Awesome を使おう]]></title><description><![CDATA[自分の SNS アカウントへのリンクは、アイコンのみで良さそうなので Font Awesome を導入した。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[#nawoto]]></title><description><![CDATA[@nawoto write some texts about Software Development, Life and more]]></description><link>https://nawo.to</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 20 May 2022 12:31:16 GMT</lastBuildDate><item><title><![CDATA[Wish List 使わなくなった]]></title><description><![CDATA[誕生日が近いので、Amazon の Wish List をひさびさに触っている。 http://amzn.to/happy_birthday_nawoto お祝いで何かを送ってもらえると嬉しいので公開しているのだけれど、自分では贈り物では Wish List…]]></description><link>https://nawo.to/2022/05/20/wishlist-isnot-offen-used/</link><guid isPermaLink="false">https://nawo.to/2022/05/20/wishlist-isnot-offen-used/</guid><pubDate>Fri, 20 May 2022 12:13:35 GMT</pubDate><content:encoded>&lt;p&gt;誕生日が近いので、Amazon の Wish List をひさびさに触っている。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://amzn.to/happy_birthday_nawoto&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;http://amzn.to/happy_birthday_nawoto&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;お祝いで何かを送ってもらえると嬉しいので公開しているのだけれど、自分では贈り物では Wish List を使うことが少なくなってきている。&lt;br&gt;
+理由は、贈りたい人の Wish List を探すのが面倒 😅
+最近は人と会う機会が減っていたり、SNS に触れる時間を減らしていたりするからだと思う。&lt;/p&gt;
+&lt;p&gt;Wish List の代替として利用しているのが、&lt;a href=&quot;https://amzn.to/3831O8D&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Amazon ギフト券(email タイプ)&lt;/a&gt;。
+理由はこんな感じ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wish List がどこか分からない&lt;/li&gt;
+&lt;li&gt;送る金額で遊べる (だいたい年齢 x 100 円だけど)&lt;/li&gt;
+&lt;li&gt;自分の近況や写真なども送れる&lt;/li&gt;
+&lt;li&gt;シュっと送れる&lt;/li&gt;
+&lt;li&gt;受けとってもらえたか分かる&lt;/li&gt;
+&lt;li&gt;返信があったりする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;贈りたい人はだいたいメールアドレスぐらいは知っている親しい人だったりする。あと、会社のメールアドレスにも送れるので一緒に仕事をしている同僚にもシュっとお祝いできるので便利。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Font Awesome を使おう]]></title><description><![CDATA[自分の SNS アカウントへのリンクは、アイコンのみで良さそうなので Font Awesome を導入した。
 (個人的にはタイポグラフィなサイトが好みなので、文字多めな傾向はある。) 必要な Package をインストール このサイトは、Gatsby で作っているので、React…]]></description><link>https://nawo.to/2022/05/11/install-font-awesome/</link><guid isPermaLink="false">https://nawo.to/2022/05/11/install-font-awesome/</guid><pubDate>Wed, 11 May 2022 06:50:21 GMT</pubDate><content:encoded>&lt;p&gt;自分の SNS アカウントへのリンクは、アイコンのみで良さそうなので &lt;a href=&quot;https://fontawesome.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Font Awesome&lt;/a&gt; を導入した。
 (個人的にはタイポグラフィなサイトが好みなので、文字多めな傾向はある。)&lt;/p&gt;
 &lt;h2&gt;必要な Package をインストール&lt;/h2&gt;
