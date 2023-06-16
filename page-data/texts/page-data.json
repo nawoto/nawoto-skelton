@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-texts-js",
-    "path": "/texts/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"#nawoto"}},"allMarkdownRemark":{"nodes":[{"excerpt":"…","fields":{"collection":"article","slug":"/texts/happy-birthday/"},"frontmatter":{"date":"2022/05/24","title":"誕生日🎂🎉","description":"おめでとう、自分"}},{"excerpt":"…","fields":{"collection":"article","slug":"/texts/about_text/"},"frontmatter":{"date":"2022/04/06","title":"読み返したい文章も書けるように","description":null}}]}},"pageContext":{}},
-    "staticQueryHashes": ["1324386404","3257411868"]}
+{"componentChunkName":"component---src-pages-texts-js","path":"/texts/","result":{"data":{"site":{"siteMetadata":{"title":"#nawoto"}},"allMarkdownRemark":{"nodes":[{"excerpt":"…","fields":{"collection":"article","slug":"/texts/happy-birthday/"},"frontmatter":{"date":"2022/05/24","title":"誕生日🎂🎉","description":"おめでとう、自分"}},{"excerpt":"…","fields":{"collection":"article","slug":"/texts/about_text/"},"frontmatter":{"date":"2022/04/06","title":"読み返したい文章も書けるように","description":null}}]}},"pageContext":{}},"staticQueryHashes":["1324386404","3257411868"]}

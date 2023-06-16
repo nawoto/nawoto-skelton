@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-about-tsx",
-    "path": "/about/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"#nawoto","author":{"name":"NISHIMURA Naoto"}}}},"pageContext":{}},
-    "staticQueryHashes": ["1324386404"]}
+{"componentChunkName":"component---src-pages-about-tsx","path":"/about/","result":{"data":{"site":{"siteMetadata":{"title":"#nawoto","author":{"name":"NISHIMURA Naoto"}}}},"pageContext":{}},"staticQueryHashes":["1324386404"]}
